@@ -1798,27 +1798,27 @@
                 {
                  "animation":[
                         {
-                         "duration":400,
+                         "duration":200,
                          "tileid":138
                         }, 
                         {
-                         "duration":400,
+                         "duration":200,
                          "tileid":139
                         }, 
                         {
-                         "duration":400,
+                         "duration":200,
                          "tileid":140
                         }, 
                         {
-                         "duration":400,
+                         "duration":200,
                          "tileid":141
                         }, 
                         {
-                         "duration":400,
+                         "duration":200,
                          "tileid":142
                         }, 
                         {
-                         "duration":400,
+                         "duration":200,
                          "tileid":143
                         }],
                  "id":242
