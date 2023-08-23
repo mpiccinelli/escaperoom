@@ -484,6 +484,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"jitsiInterfaceConfig",
+                 "type":"string",
+                 "value":"{\n  \"SHOW_JITSI_WATERMARK\": \"false\",\n  \"DEFAULT_BACKGROUND\" : \"#FECE00\",\n  \"DEFAULT_LOGO_URL\" : \"https:\/\/www.opiamarketing.cl\/wp-content\/uploads\/2020\/02\/logo-blanco.png\",\n  \"DEFAULT_WELCOME_PAGE_LOGO_URL\" : \"https:\/\/www.opiamarketing.cl\/wp-content\/uploads\/2020\/02\/logo-blanco.png\",\n  \"BRAND_WATERMARK_LINK\" : \"https:\/\/www.opiamarketing.cl\",\n  \" JITSI_WATERMARK_LINK\": \"https:\/\/www.opiamarketing.cl\"\n}"
+                }, 
+                {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"A004"
