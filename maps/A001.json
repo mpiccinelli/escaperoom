@@ -249,7 +249,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"arrival.json#entry"
+                 "value":"airport.json#entry"
                 }],
          "type":"tilelayer",
          "visible":true,
