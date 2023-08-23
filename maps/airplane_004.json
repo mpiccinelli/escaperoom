@@ -1580,12 +1580,12 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"https:\/\/mpiccinelli.github.io\/scaperoom\/maps\/airplane_004.png"
+         "value":"https:\/\/mpiccinelli.github.io\/escaperoom\/maps\/airplane_004.png"
         }, 
         {
          "name":"mapLink",
          "type":"string",
-         "value":"https:\/\/mpiccinelli.github.io\/scaperoom\/maps\/airplane_004.json"
+         "value":"https:\/\/mpiccinelli.github.io\/escaperoom\/maps\/airplane_004.json"
         }, 
         {
          "name":"mapName",
@@ -1595,7 +1595,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"https:\/\/mpiccinelli.github.io\/scaperoom\/assets\/scripts\/airplane_004.js"
+         "value":"https:\/\/mpiccinelli.github.io\/escaperoom\/assets\/scripts\/airplane_004.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
