@@ -249,7 +249,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/opia-marketing\/escape-room\/lounge#entry"
+                 "value":"https:\/\/play.workadventu.re\/@\/opia-marketing\/escape-room\/lounge-nomad#entry"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -336,7 +336,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/opia-marketing\/escape-room\/lounge#entry"
+                 "value":"https:\/\/play.workadventu.re\/@\/opia-marketing\/escape-room\/lounge-nomad#entry"
                 }],
          "type":"tilelayer",
          "visible":true,
