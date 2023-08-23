@@ -245,12 +245,6 @@
          "id":45,
          "name":"exit",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"exitUrl",
-                 "type":"string",
-                 "value":"arrival.json#entry"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":70,
@@ -332,12 +326,6 @@
          "id":47,
          "name":"emergency",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"exitUrl",
-                 "type":"string",
-                 "value":"lounge.json#entry"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":70,
