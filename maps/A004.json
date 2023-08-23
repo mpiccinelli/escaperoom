@@ -158,6 +158,12 @@
          "id":46,
          "name":"entry",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":70,
@@ -239,6 +245,12 @@
          "id":45,
          "name":"exit",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"https:\/\/play.workadventu.re\/@\/opia-marketing\/escape-room\/arrival#entry"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":70,
@@ -320,6 +332,12 @@
          "id":47,
          "name":"emergency",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"https:\/\/play.workadventu.re\/@\/opia-marketing\/escape-room\/lounge#entry"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":70,
