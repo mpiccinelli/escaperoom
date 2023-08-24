@@ -2,8 +2,8 @@
 import { } from "https://unpkg.com/@workadventure/scripting-api-extra@^1";
 
 console.log("Open Map A001");
-// Waiting for the API to be ready
 
+// Waiting for the API to be ready
 WA.onInit().then(() => {
    console.log('Scripting API ready');
    console.log('Player tags: ', WA.player.tags);
@@ -20,7 +20,6 @@ WA.room.onEnterLayer('popup_zona').subscribe(() => {
       }
    }]);
 });
-//Close info2 Popup
 WA.room.onLeaveLayer('popup_zona').subscribe(() => {
    popup1.close();
 });
@@ -36,8 +35,6 @@ WA.room.onEnterLayer('popup_zona2').subscribe(() => {
       }
    }]);
 });
-//Close info2 Popup
 WA.room.onLeaveLayer('popup_zona2').subscribe(() => {
    popup2.close();
 });
-
