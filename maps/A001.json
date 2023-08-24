@@ -1905,15 +1905,15 @@
                  "y":896
                 }, 
                 {
-                 "height":136,
+                 "height":168,
                  "id":17,
                  "name":"popup_info2",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":304,
+                 "width":368,
                  "x":1144,
-                 "y":936
+                 "y":824
                 }],
          "opacity":1,
          "type":"objectgroup",
