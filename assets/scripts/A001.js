@@ -3,10 +3,8 @@
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
-
 console.log("Open Map A001");
 
-let currentPopup: any = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
@@ -20,12 +18,5 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
-//Function close opened Popup 
-function closePopUp(){
-    if (currentPopup !== undefined) {
-        currentPopup.close();
-        currentPopup = undefined;
-    }
-}
 
 export {};
