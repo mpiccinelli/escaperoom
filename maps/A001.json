@@ -595,23 +595,13 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":70,
          "id":51,
-         "name":"codezone",
+         "name":"exitcode",
          "opacity":1,
          "properties":[
                 {
-                 "name":"autoClose",
-                 "type":"bool",
-                 "value":true
-                }, 
-                {
-                 "name":"autoOpen",
-                 "type":"bool",
-                 "value":true
-                }, 
-                {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"porta1"
+                 "value":"exit_door"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -1361,8 +1351,8 @@
          "objects":[
                 {
                  "height":0,
-                 "id":10,
-                 "name":"porta1",
+                 "id":12,
+                 "name":"exit_door",
                  "point":true,
                  "properties":[
                         {
@@ -1388,7 +1378,7 @@
                         {
                          "name":"persist",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"variable",
@@ -1890,7 +1880,7 @@
          "y":0
         }],
  "nextlayerid":52,
- "nextobjectid":12,
+ "nextobjectid":13,
  "orientation":"orthogonal",
  "properties":[
         {
