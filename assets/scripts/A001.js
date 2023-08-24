@@ -17,11 +17,13 @@ WA.room.onEnterLayer('popup_zona').subscribe(() => {
       className: "primary",
       callback: (popup) => {
          popup.close();
+         popup1 = undefined;
       }
    }]);
 });
 WA.room.onLeaveLayer('popup_zona').subscribe(() => {
    popup1.close();
+   popup1 = undefined;
 });
 
 // Popup 2
@@ -32,9 +34,11 @@ WA.room.onEnterLayer('popup_zona2').subscribe(() => {
       className: "primary",
       callback: (popup) => {
          popup.close();
+         popup2 = undefined;
       }
    }]);
 });
 WA.room.onLeaveLayer('popup_zona2').subscribe(() => {
    popup2.close();
+   popup2 = undefined;
 });
