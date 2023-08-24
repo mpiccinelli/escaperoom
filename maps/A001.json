@@ -599,6 +599,16 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"autoClose",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"autoOpen",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
                  "name":"doorVariable",
                  "type":"string",
                  "value":"exit_door"
@@ -1376,9 +1386,14 @@
                          "value":"door_open"
                         }, 
                         {
+                         "name":"openTriggerMessage",
+                         "type":"string",
+                         "value":"Digite o c\u00f3digo de libera\u00e7\u00e3o para abrir a porta do avi\u00e3o."
+                        }, 
+                        {
                          "name":"persist",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }],
                  "rotation":0,
                  "type":"variable",
