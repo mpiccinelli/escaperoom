@@ -609,9 +609,19 @@
                  "value":false
                 }, 
                 {
+                 "name":"code",
+                 "type":"string",
+                 "value":"A001"
+                }, 
+                {
                  "name":"doorVariable",
                  "type":"string",
                  "value":"exit_door"
+                }, 
+                {
+                 "name":"openTriggerMessage",
+                 "type":"string",
+                 "value":"Digite o CODIGO DE LIBERA\u00c7\u00c3O para abrir a porta do avi\u00e3o."
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -1371,11 +1381,6 @@
                          "value":"door_closed"
                         }, 
                         {
-                         "name":"code",
-                         "type":"string",
-                         "value":"A001"
-                        }, 
-                        {
                          "name":"default",
                          "type":"bool",
                          "value":false
@@ -1389,11 +1394,6 @@
                          "name":"openLayer",
                          "type":"string",
                          "value":"door_open"
-                        }, 
-                        {
-                         "name":"openTriggerMessage",
-                         "type":"string",
-                         "value":"Digite o c\u00f3digo de libera\u00e7\u00e3o para abrir a porta do avi\u00e3o."
                         }, 
                         {
                          "name":"persist",
