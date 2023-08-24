@@ -1894,26 +1894,26 @@
                  "y":1104
                 }, 
                 {
-                 "height":112,
+                 "height":176,
                  "id":16,
                  "name":"popup_info",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":128,
-                 "x":480,
-                 "y":960
+                 "width":320,
+                 "x":288,
+                 "y":896
                 }, 
                 {
-                 "height":112,
+                 "height":128,
                  "id":17,
                  "name":"popup_info2",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":160,
-                 "x":1248,
-                 "y":960
+                 "width":240,
+                 "x":1192,
+                 "y":944
                 }],
          "opacity":1,
          "type":"objectgroup",
