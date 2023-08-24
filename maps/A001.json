@@ -1371,6 +1371,11 @@
                          "value":"door_closed"
                         }, 
                         {
+                         "name":"code",
+                         "type":"string",
+                         "value":"A001"
+                        }, 
+                        {
                          "name":"default",
                          "type":"bool",
                          "value":false
@@ -1393,7 +1398,7 @@
                         {
                          "name":"persist",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"variable",
