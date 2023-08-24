@@ -20,11 +20,14 @@ WA.room.onEnterLayer('popup_zona').subscribe(() => {
       }
    }]);
 });
-WA.room.onLeaveZone('popup_zona2', popup1.close());
+//Close info2 Popup
+WA.room.onLeaveLayer('popup_zona').subscribe(() => {
+   popup1.close();
+});
 
 // Popup 2
 let popup2 = undefined;
-WA.room.onEnterLayer('popup_zona').subscribe(() => {
+WA.room.onEnterLayer('popup_zona2').subscribe(() => {
    popup2 = WA.ui.openPopup("popup_info2", "Ao pousar tivemos uma pequena pane em nossos sistemas e a porta do avião não esta abrindo manualmente. Precisamos do código de desbloqueio para resetar os sistemas e liberar a saída de todos. Pode me ajudar a encontrar?", [{
       label: "Vamos lá!",
       className: "primary",
@@ -33,5 +36,8 @@ WA.room.onEnterLayer('popup_zona').subscribe(() => {
       }
    }]);
 });
-WA.room.onLeaveZone('popup_zona2', popup2.close());
+//Close info2 Popup
+WA.room.onLeaveLayer('popup_zona2').subscribe(() => {
+   popup2.close();
+});
 
