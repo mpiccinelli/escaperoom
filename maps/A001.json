@@ -1900,20 +1900,20 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":320,
-                 "x":288,
+                 "width":344,
+                 "x":264,
                  "y":896
                 }, 
                 {
-                 "height":128,
+                 "height":136,
                  "id":17,
                  "name":"popup_info2",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":240,
-                 "x":1192,
-                 "y":944
+                 "width":304,
+                 "x":1144,
+                 "y":936
                 }],
          "opacity":1,
          "type":"objectgroup",
