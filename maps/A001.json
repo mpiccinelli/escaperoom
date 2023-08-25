@@ -518,8 +518,8 @@
                 }, 
                 {
                  "name":"openWebsiteWidth",
-                 "type":"float",
-                 "value":20
+                 "type":"int",
+                 "value":25
                 }],
          "type":"tilelayer",
          "visible":true,
