@@ -512,6 +512,11 @@
                  "value":"A001"
                 }, 
                 {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"jitsimoderate"
+                }, 
+                {
                  "name":"openWebsiteWidth",
                  "type":"float",
                  "value":20
