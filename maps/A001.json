@@ -249,7 +249,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/opia-marketing\/escape-room\/airport#entry"
+                 "value":"https:\/\/play.workadventu.re\/@\/opia-marketing\/escape-room\/airport#entry_arrival_a001"
                 }],
          "type":"tilelayer",
          "visible":true,
