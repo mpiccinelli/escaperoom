@@ -12,9 +12,9 @@ WA.onInit().then(() => {
 // Popup info 1
 let popup1 = undefined;
 WA.room.onEnterLayer('popup_zona').subscribe(() => {
-   popup1 = WA.ui.openPopup("popup_info", "Desculpe o incoveniente, estamos tentando resolver a pane dos nossos sistemas. Enquanto isso, se precisar de algo, temos um totem aqui do lado onde você pode buscar todas as informações que precisa!", [{
+   popup1 = WA.ui.openPopup("popup_info", "Ei, Nomad! Precisa de mais informações para resolver o desafio? Se aproxime dos círculos vermelhos no chão do avião. Mas corra porque o tempo está voando!", [{
       label: "Obrigado!",
-      className: "primary",
+      className: "sucess",
       callback: (popup) => {
          popup.close();
          popup1 = undefined;
@@ -29,9 +29,9 @@ WA.room.onLeaveLayer('popup_zona').subscribe(() => {
 // Popup info 2
 let popup2 = undefined;
 WA.room.onEnterLayer('popup_zona2').subscribe(() => {
-   popup2 = WA.ui.openPopup("popup_info2", "Ao pousar tivemos uma pequena pane em nossos sistemas e a porta do avião não esta abrindo manualmente. Precisamos do código de desbloqueio para resetar os sistemas e liberar a saída de todos. Pode me ajudar a encontrar?", [{
+   popup2 = WA.ui.openPopup("popup_info2", "Chegou a hora de pousar mas a porta não está abrindo! E agora? Chame o seu time e descubram o código da porta. Dica: pensem na quantidade de valores que temos na cultura Nomad. O total será a mesma quantidade de dígitos para abrir a porta. Mas antes, vocês precisam descobrir os assentos premiados ;)", [{
       label: "Vamos lá!",
-      className: "primary",
+      className: "success",
       callback: (popup) => {
          popup.close();
          popup2 = undefined;
