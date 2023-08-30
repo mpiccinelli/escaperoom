@@ -336,7 +336,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/opia-marketing\/escape-room\/lounge-nomad#entry"
+                 "value":"https:\/\/play.workadventu.re\/@\/opia-marketing\/escape-room\/airport#entry_lounge"
                 }],
          "type":"tilelayer",
          "visible":true,
