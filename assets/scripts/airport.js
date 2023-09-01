@@ -9,36 +9,18 @@ WA.onInit().then(() => {
    console.log('Player tags: ', WA.player.tags);
 }).catch(e => console.error(e));
 
-// Popup 1
-let popup1 = undefined;
-WA.room.onEnterLayer('popup_zona').subscribe(() => {
-   popup1 = WA.ui.openPopup("popup_info", "Olá!", [{
-      label: "Olá",
-      className: "primary",
-      callback: (popup) => {
-         popup.close();
-         popup1 = undefined;
-      }
-   }]);
-});
-WA.room.onLeaveLayer('popup_zona').subscribe(() => {
-   popup1.close();
-   popup1 = undefined;
-});
-
-// Popup 2
-let popup2 = undefined;
-WA.room.onEnterLayer('popup_zona2').subscribe(() => {
-   popup2 = WA.ui.openPopup("popup_info2", "Olá!", [{
-      label: "Olá!",
-      className: "primary",
-      callback: (popup) => {
-         popup.close();
-         popup2 = undefined;
-      }
-   }]);
-});
-WA.room.onLeaveLayer('popup_zona2').subscribe(() => {
-   popup2.close();
-   popup2 = undefined;
+// Add action bar button 'Abrir o mapa'.
+WA.ui.actionBar.addButton({
+   id: 'map-btn',
+   label: 'Abrir o mapa',
+   callback: (event) => {
+      console.log('Botão clicado', event);
+      // When a user clicks on the action bar button 'Abrir o mapa', we remove it.
+      WA.ui.modal.openModal({
+         title: "Mapa geral do aeroporto",
+         src: 'https://culturanomad.com.br/game/map_airport',
+         allow: "fullscreen",
+         position: "right"
+     });
+   } 
 });
