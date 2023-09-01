@@ -10,7 +10,7 @@ WA.onInit().then(() => {
 }).catch(e => console.error(e));
 
 // Add action bar button 'Abrir o mapa'.
-WA.ui.actionBar.addButton({
+/*WA.ui.actionBar.addButton({
    id: 'map-btn',
    label: 'Abrir o mapa',
    callback: (event) => {
@@ -23,4 +23,4 @@ WA.ui.actionBar.addButton({
          position: "right"
      });
    } 
-});
+});*/
