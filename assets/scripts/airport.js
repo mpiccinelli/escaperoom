@@ -12,13 +12,12 @@ WA.onInit().then(() => {
 // Add action bar button 'Abrir o mapa'.
 WA.ui.actionBar.addButton({
    id: 'map-btn',
-   type: 'action',
    label: 'Abrir o mapa',
    callback: (event) => {
       console.log('Botão clicado', event);
       // When a user clicks on the action bar button 'Abrir o mapa', we remove it.
       WA.ui.modal.openModal({
-         title: "Mapa geral do aeroporto",
+         title: "Visão geral do aeroporto",
          src: 'https://culturanomad.com.br/game/map_airport',
          allow: "fullscreen",
          allowApi: true,
