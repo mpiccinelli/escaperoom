@@ -10,9 +10,11 @@ WA.onInit().then(() => {
 }).catch(e => console.error(e));
 
 // Add action bar button 'Abrir o mapa'.
-/*WA.ui.actionBar.addButton({
+WA.ui.actionBar.addButton({
    id: 'map-btn',
-   label: 'Abrir o mapa',
+   type: 'action',
+   imageSrc: 'https://mpiccinelli.github.io/escaperoom/maps/mapa.png',
+   toolTip: 'Abrir o mapa geral do aeroporto',
    callback: (event) => {
       console.log('Botão clicado', event);
       // When a user clicks on the action bar button 'Abrir o mapa', we remove it.
@@ -20,7 +22,8 @@ WA.onInit().then(() => {
          title: "Mapa geral do aeroporto",
          src: 'https://culturanomad.com.br/game/map_airport',
          allow: "fullscreen",
-         position: "right"
+         allowApi: true,
+         position: "center"
      });
    } 
-});*/
+});
