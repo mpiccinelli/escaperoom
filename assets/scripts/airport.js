@@ -13,8 +13,7 @@ WA.onInit().then(() => {
 WA.ui.actionBar.addButton({
    id: 'map-btn',
    type: 'action',
-   imageSrc: '../imgs/mapa.png',
-   toolTip: 'Abrir o mapa geral do aeroporto',
+   label: 'Abrir o mapa',
    callback: (event) => {
       console.log('Botão clicado', event);
       // When a user clicks on the action bar button 'Abrir o mapa', we remove it.
