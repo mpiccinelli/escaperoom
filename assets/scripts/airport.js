@@ -13,7 +13,7 @@ WA.onInit().then(() => {
 WA.ui.actionBar.addButton({
    id: 'map-btn',
    type: 'action',
-   imageSrc: '../mapa.png',
+   imageSrc: '../imgs/mapa.png',
    toolTip: 'Abrir o mapa geral do aeroporto',
    callback: (event) => {
       console.log('Botão clicado', event);
